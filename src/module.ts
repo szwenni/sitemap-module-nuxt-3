@@ -44,12 +44,10 @@ export default defineNuxtModule({
       // On "generate" mode, generate static files for each sitemap or sitemapindex
       // ToDo: move to generate:done hook when available
       nitro.hooks.hook('prerender:route', async () => {
-        if (nuxtInstance.options._generate) {
-          await nuxtInstance.callHook('sitemap:generate:before' as any, nuxtInstance, options)
-          logger.info('Generating sitemaps')
-          await Promise.all(options.map((options) => generateSitemaps(options, globalCache, nuxtInstance)))
-          await nuxtInstance.callHook('sitemap:generate:done' as any, nuxtInstance)
-        }
+        await nuxtInstance.callHook('sitemap:generate:before' as any, nuxtInstance, options)
+        logger.info('Generating sitemaps')
+        await Promise.all(options.map((options) => generateSitemaps(options, globalCache, nuxtInstance)))
+        await nuxtInstance.callHook('sitemap:generate:done' as any, nuxtInstance)
       })
     })
 

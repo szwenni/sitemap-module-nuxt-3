@@ -1,6 +1,6 @@
 {
-  "name": "@funken-studio/sitemap-nuxt-3",
-  "version": "3.2.0",
+  "name": "@szwenni/sitemap-nuxt-3",
+  "version": "3.2.1",
   "description": "Automatically generate or serve dynamic sitemap.xml for Nuxt projects",
   "keywords": [
     "nuxt 3",
@@ -21,7 +21,8 @@
   "contributors": [
     "Nicolas Pennec",
     "Pooya Parsa",
-    "Adrian Jakob"
+    "Adrian Jakob",
+    "Sven Kröger"
   ],
   "exports": {
     ".": {
