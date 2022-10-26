@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.1.4](https://github.com/funken-studio/sitemap-module-nuxt-3/compare/v4.1.3...v4.1.4) (2022-10-26)
+
 ### [4.1.3](https://github.com/funken-studio/sitemap-module-nuxt-3/compare/v4.1.1...v4.1.3) (2022-10-26)
 
 ### [4.1.1](https://github.com/funken-studio/sitemap-module-nuxt-3/compare/v4.0.0...v4.1.1) (2022-10-05)
