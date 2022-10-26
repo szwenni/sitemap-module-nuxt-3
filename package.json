@@ -1,6 +1,6 @@
 {
   "name": "@szwenni/sitemap-nuxt-3",
-  "version": "4.1.1",
+  "version": "4.1.3",
   "description": "Automatically generate or serve dynamic sitemap.xml for Nuxt projects",
   "keywords": [
     "nuxt 3",
@@ -88,7 +88,7 @@
     "husky": "latest",
     "lint-staged": "latest",
     "node-fetch": "latest",
-    "nuxt-i18n": "npm:@nuxtjs/i18n-edge",
+    "nuxt-i18n": "@nuxtjs/i18n-edge",
     "prettier": "latest",
     "prettier-eslint": "^15.0.1",
     "standard-version": "latest",
