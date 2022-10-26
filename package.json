@@ -1,6 +1,6 @@
 {
   "name": "@szwenni/sitemap-nuxt-3",
-  "version": "4.1.4",
+  "version": "4.1.5",
   "description": "Automatically generate or serve dynamic sitemap.xml for Nuxt projects",
   "keywords": [
     "nuxt 3",
